@@ -1,0 +1,419 @@
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="../icon1.png">
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+       
+        <script type="text/javascript" src="./js/jquery-3.7.1.js"></script>
+        <script type="text/javascript" src="./js/script.js"></script>
+      
+        <link rel="stylesheet" href="../style.css">
+      
+        <title>
+            Official Shoes
+        </title>
+
+        <style type="text/css">
+
+
+.official{
+    height:1900px;
+    border:solid black 1px; 
+}
+h1{
+    text-align: center;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    
+}
+img{
+    height:350px;
+}
+.category{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.type{
+    height: 50px;
+    border: none;
+    appearance: none;
+    padding:0px 30px 0px 15px;
+    color:white;
+    background-color: black;
+    font-size: 20px;
+}
+.shoe{
+    flex: 1;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.786);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 400px;
+    border: solid black 4px;
+    margin-bottom: 10px;
+}
+.disc{
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    padding: 10px 20px;
+    color: black;
+}
+.type:hover{
+    height: 55px;
+}
+
+
+
+            a.link:hover{
+                font-weight: 900;
+                }
+            .link
+            {
+                text-decoration:none;
+                 color:white
+            }
+            #pic{
+                height:100px;
+                width:100px;
+                /* margin-bottom: 150px; */
+            }
+            table{
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+    height: 30px;
+}  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+            .header
+            {
+                
+                display:grid;
+                grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                padding:5px;
+                font-size: 20px;
+                position: relative;
+            }
+            .nav a
+            {
+                color:white;
+                text-decoration: none;
+                font-family:Fjalla;
+                
+            }
+
+            .text
+            {
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                height: 100px;
+              
+                /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+                
+            }
+            /* font-size: 20px; */
+
+            /* .logoText
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            } */
+            .para p
+            {
+                font-family:Fjalla;
+            }
+            .para
+            {
+                top:20px;
+                position: relative;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="header">
+            
+
+               
+
+                <div class="logoText nav">
+                   
+                    <img class="img"src="pic.png" id="pic" align="left">
+                    
+                    
+                    
+                    <div class="nav para"><p style="color:white; font-size: 20px;">
+                        KK Shoes Warehouse
+                    </p>
+                </div>
+                
+                
+               
+             </div>
+             <div class="emtybox"></div>
+              <div class="nav home text"><a href="../../index.html">Home</a></div>
+              <div class="nav about text"><a href="#">About Us</a></div>
+              <div class="nav sports text"><a href="#">Sports</a></div>
+              <div class="nav travelling text" ><a href="#">Travelling</a></div>
+              <div class="nav off text"><a href="official.html">Official</a></div>
+
+
+              <div class="button text">
+                <button class="submit "><a href="../singnup/singup.html" target="_blank-" class="a">Sign up</a></button>
+              </div>
+
+              <div class="button text">
+                <button class="submit"><a href="../singin/log-in.html" target="_blank" class="a">Sign in</a></button>
+              </div>  
+        </div>
+
+        <div class="Official">
+            <h1>Official Shoes</h1>
+                    <select name="type" id="typesDropdown" class="type" onchange="navigateToLink()">
+                        <option value="">Types</option>
+                        <option value="Shoe-details.html">Loafer</option>
+                        <option value="Monk-Straps.html">Monk Straps</option>
+                        <option value="oxford.html">Oxford</option>
+                    </select>
+                   
+                        <select name="size" id="sizeDropdown" class="type" onchange="navigateToLink1()">
+                            <option value=""><a href="#">Size</a></option>
+                            <option value="size7.html">25.6cm/7/6/39</a></option>
+                            <option value="size8.html">26.5cm/8/7/40</a></option>
+                            <option value="size9.html">27.3cm/9/8/41</a></option>
+                            <option value="size10.html">28.2cm/10/9/42</a></option>
+                            <option value="size11.html">29cm/11/10/43</option>
+                        </select>
+            <select name="color" id="colorDropdown"class="type" onchange="navigateToLink2()">
+                <option value="">Color</option>
+                <option value="black.html">Black</option>
+                <option value="brown.html">Brown</option>
+            </select>
+            <div class="category">
+                <div class="shoe">
+                    <a href="loafers.html"><img src="pictures/loafer1.png" alt="cole haan"style="width:100%"></a>
+                    <div class="disc">
+                        Brand:Cole haan
+                        
+                    </div>
+                </div>
+                <div class="shoe">
+                    <a href="loafers.html"><img src="pictures/loafers2.png" alt="cole haan"style="width:100%">
+                    <div class="disc">
+                        Brand:Cole haan
+                    
+                    </div>
+                </div>
+                
+                <div class="shoe">
+                    <a href="loafers.html"><img src="pictures/bata.png" alt="bata"style="width:100%"></a>
+                    <div class="disc">
+                        Brand:Bata
+                    </div>
+                </div>
+
+                <div class="shoe">
+                    <a href="loafers.html"><img src="pictures/batab-removebg-preview.png" alt="bata"style="width:100%"></a>
+                    <div class="disc">
+                        Brand:Bata
+                    </div>
+                </div>
+            </div>
+            <div class="category">
+                <div class="shoe">
+                    <a href="loafers.html"> <img src="pictures/images__1_-removebg-preview.png" alt="Clarks"style="width:100%"></a>
+                    <div class="disc">
+                        Brand:Clarks
+                    </div>
+                </div>
+                <div class="shoe">
+                    <a href="loafers.html"><img src="pictures/clarks-removebg-preview.png" alt="clarks"style="width:100%"></a>
+                    <div class="disc">
+                        Brand:Clarks
+                    </div>
+                </div>
+                
+                <div class="shoe">
+                    <a href="loafers.html"> <img src="pictures/prada.png" alt="Prada"style="width:100%"></a>
+                    <div class="disc">
+                        Brand:Prada
+                    </div>
+                </div>
+
+                <div class="shoe">
+                    <a href="loafers.html"><img src="pictures/prada b.png" alt="Prada"style="width:100%"></a>
+                    <div class="disc">
+                     Brand:Prada
+                </div>
+            </div>
+
+        <div class="category">
+            <div class="shoe">
+               <a href="Monk-Starps.html"> <img src="pictures/cole haan (1).png" alt="monk strap"style="width:100%"></a>
+                <div class="disc">
+                    Brand:Cole Haan
+                </div>
+            </div>
+            <div class="shoe">
+                <a href="Monk-Starps.html"><img src="pictures/grenson (2).png" alt="Monk Straps"style="width:100%"></a>
+                <div class="disc">
+                    Brand:Cole Haan
+                </div>
+            </div>
+            
+            <div class="shoe">
+                <a href="Monk-Starps.html"><img src="pictures/john lobb (2).png" alt="monk straps"style="width:100%"></a>
+                <div class="disc">
+                    Brand:John lobb
+                </div>
+            </div>
+
+            <div class="shoe">
+                <a href="Monk-Starps.html"><img src="pictures/john lobb (1).png" alt="monk strap"style="width:100%"></a>
+                <div class="disc">
+                    Brand:John lobb
+                </div>
+            </div>
+        </div>
+    <div class="category">
+        <div class="shoe">
+            <a href="Monk-Straps.html"> <img src="pictures/taft prince (1).png" alt="monk straps"style="width:100%"></a>
+            <div class="disc">
+                Brand:Taft Prince
+            </div>
+        </div>
+        <div class="shoe">
+            <a href="Monk-Starps.html"><img src="pictures/taft prince (2).png" alt="Monk Straps"style="width:100%"></a>
+            <div class="disc">
+                Brand:Taft Prince
+            </div>
+        </div>
+        
+        <div class="shoe">
+            <a href="Monk-Starps.html"><img src="pictures/grenson (1).png" alt="monk straps"style="width:100%"></a>
+            <div class="disc">
+                Brand:Grenson
+            </div>
+        </div>
+
+        <div class="shoe">
+            <a href="Monk-Starps.html"><img src="pictures/grenson (2).png" alt="monk strap"style="width:100%"></a>
+            <div class="disc">
+                Brand:Grenson
+            </div>
+        </div>
+    </div>
+    
+    <div class="category">
+        <div class="shoe">
+           <a href="oxford.html"> <img src="pictures/cole haan ox (1).png" alt="Oxford"style="width:100%"></a>
+            <div class="disc">
+                Brand:Cole Haan
+            </div>
+        </div>
+        <div class="shoe">
+            <a href="oxford.html"><img src="pictures/cole haan ox (2).png" alt="Oxford"style="width:100%"></a>
+            <div class="disc">
+                Brand:Cole Haan
+            </div>
+        </div>
+        
+        <div class="shoe">
+            <a href="oxford.html"><img src="pictures/jousen (1).png" alt="Oxford"style="width:100%"></a>
+            <div class="disc">
+                Brand:Jousen
+            </div>
+        </div>
+
+        <div class="shoe">
+            <a href="oxford.html"><img src="pictures/jousen (2).png" alt="Oxford"style="width:100%"></a>
+            <div class="disc">
+                Brand:Jousen
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <div class="shoe" style="width:450px;">
+           <a href="oxford.html"> <img src="pictures/bruno mark (1).png" alt="Oxford"style="width:100%"></a>
+            <div class="disc">
+                Brand:Bruno Mark
+            </div>
+        </div>
+        <div class="shoe" style="width:450px;">
+            <a href="oxford.html"><img src="pictures/bruno mark (2).png" alt="Oxford"style="width:100%"></a>
+            <div class="disc">
+                Brand:Bruno Mark
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="footer">
+            <div class="footerBox">
+                <div class="bottomLogo">
+                    <img src="./logo.jpg" id="bottomImage">
+                </div>
+    
+                <div class="bottomBox1 help">
+                    <p><a href="../official/official.html">official</a></p>
+                    <p><a href="#">travelling</a></p>
+                    <p><a href="#">sports</a></p>
+                </div>
+                <div class="bottomBox1 help">
+                    <p><a href="../brand.html">brands</a></p>
+                    <p><a href="#">gallery</a></p>
+                    <p><a href="#">partners</a></p>
+                </div>
+                <div class="bottomBox1 help">
+                    <p><a href="../../index.html">home</a></p>
+                    <p><a href="#">events</a></p>
+                    <p><a href="#">news</a></p>
+                </div>
+                <div class="bottomBox1 help">
+                    <P><a href="#">about us</a></P>
+                    <p><a href="../contact/contactus1.html">contact us</a></p>
+                    <p><a href="#">services</a></p>
+                    
+    
+                </div>
+
+              
+
+            </div>
+            
+            <div clsaa="lastDiv"><hr class="grid-item"></div>
+
+            <div class="media" >
+
+            <div class="facebook"> <a href="#" class="fa fa-facebook" id="fb"></a></div>
+            <div class="teitter">  <a href="#" class="fa fa-twitter" id="twitter"></a></div>
+            <div class="instagram"> <a href="#" class="fa fa-instagram" id="instagram"></a></div>
+            <div class="google"> <a href="#" class="fa fa-google" id="google"></a></div>
+            
+           
+            
+            
+            </div>
+            
+
+        </div> 
+                
+    </body>
+
+</html>

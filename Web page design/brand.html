@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="./icon1.png">
+
+        <style type="text/css">
+
+
+            h1 {
+    display:flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     border: solid black 1px;
+     height:20px;
+     background-color: black;
+     color:white;
+     font-size:18px;
+     padding: 40px;
+     font-size:30px;
+    }
+
+ .container {
+    display:grid;
+    grid-template-rows: 1fr  1fr ; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+   
+    }
+
+ .item {
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    height: 50vh;
+    }
+
+
+.item img{
+   width:200px;
+   height:200px;
+}
+body
+{
+    background-color: black;
+}
+.item img:hover{
+    opacity:0.5;
+}
+        </style>
+        <title style="font-family:Fjalla;">Brands</title>
+    </head>
+    <body>
+        <h1>Brands</h1>
+        <div class="container">
+            <div class="item nike"><a href="https://www.nike.com/" target="_blank"><img src="../brand/nike.webp"></a></div>
+            <div class="item puma"><a href="https://us.puma.com/us/en" target="=blank"> <img src="../brand/puma.png"></a></div>
+            <div class="item adidas"><a href="https://www.adidas.com/us" target="_blank"><img src="../brand/adidas.jpg"></a></div>
+            <div class="item bata"><a href="https://bata.lk/" target="_blank"><img src="../brand/bata.jpeg"></a></div>
+            <div class="item vector x"><a href="https://vectorxproducts.com/" target="_blank"><img src="../brand/vector x.avif"></a></div>
+            <div class="item magnanni"><a href="https://magnanni.com/" target="_blank"><img src="../brand/magnanni.jpg"></a></div>
+            <div class="item clarks"><a href="https://www.clarks.com/en-us" target="_blank"><img src="../brand/clarks.jpg"></a></div>
+            <div class="item cole haan"><a href="https://www.colehaan.com/" target="_blank"><img src="../brand/cole haan.webp"></a></div>
+            <div class="item bruno mark"><a href="https://www.brunomarcshoes.com/" target="_blank"><img src="../brand/bruno mark.jpg"></a></div>
+            <div class="item stacy addams"><a href="https://www.stacyadams.com/" target="_blank"><img src="../brand/stacy addams.jpg"></a></div>
+        </div>
+    </body>
+</html>
